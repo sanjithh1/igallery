@@ -26,6 +26,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ## index.html
+```
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,9 +50,9 @@ Publish the website in the given URL.
   <script src="script.js"></script>
 </body>
 </html>
-
+```
 ## style.css
-
+```
 body {
     margin: 2%;
     border: 1px solid black;
@@ -80,8 +81,9 @@ body {
   img {
     width: 95%;
   }
+```
 ## script.js
-
+```
 const imageDiv = document.getElementById("image");
 const originalImageUrl = ""; // Set this to the URL of your original image
 const originalText = "Hover over an image below to display here."; // Original text
@@ -101,6 +103,7 @@ function unDo() {
   // Change the text back to the original text
   imageDiv.innerHTML = originalText;
 }
+```
 ## OUTPUT:
 ![Untitled design](https://github.com/user-attachments/assets/cbcc6e3f-78a9-4e24-99f5-cd538cc3beb3)
  ![image](https://github.com/user-attachments/assets/efa4e088-3cb5-4f92-bb7a-033fa5d475eb)
